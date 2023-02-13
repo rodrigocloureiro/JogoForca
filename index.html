@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo das Palavras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <head>
+    <h1>Jogo das Palavras</h1>
+  </head>
+  <main>
+    <div id="container">
+      <div id="palavra-section">
+        <div>
+          <img id="imgForca" src="img/Forca00.png" width="100px">
+        </div>
+        <div>
+          <p class="txt-center"><span id="spLetrasContidas">Clique em Nova para começar</span></p>
+        </div>
+      </div>
+    </div>
+    <div id="app">
+      <div>
+        <label>Letra:</label>
+        <input maxlength="1" id="ipPalavraResposta" disabled>
+      </div>
+      <div>
+        <p>Palavra Secreta: <span id="spPalavraSecreta"></span></p>
+      </div>
+      <div>
+        <p>Letras jogadas: <span id="spLetrasJogadas"></span></p>
+      </div>
+      <div id="btns">
+        <button id="btnNovaPalavra">Nova</button>
+        <button id="btnVerificarPalavra" disabled>Verificar</button>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

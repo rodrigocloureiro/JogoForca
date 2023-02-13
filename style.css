@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #3F5EFB;
+  background: radial-gradient(circle, #3F5EFB 0%, #FC466B 100%);
+  height: 100vh;
+}
+
+#app {
+  width: 500px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 20px auto 20px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+}
+
+div {
+  margin: 20px 0 0 0;
+}
+
+div p {
+  font-size: 20px;
+}
+
+div img {
+  width: 200px;
+}
+
+#container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#palavra-section {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  outline: none;
+  border: 2px solid #000;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  background-color: transparent;
+}
+
+#btns {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  width: 240px;
+  padding: 10px;
+  cursor: pointer;
+  background: #3F5EFB;
+  background: linear-gradient(90deg, #3F5EFB 0%, #FC466B 100%);
+  color: #fff;
+  font-weight: bold;
+}
+
+button:disabled,
+button:disabled:hover {
+  cursor: default;
+  background: linear-gradient(90deg, #c4c4c48e 0%, #c4c4c48e 100%);
+}
+
+button:hover {
+  background: linear-gradient(90deg, #3f5efbad 0%, #fc466aa1 100%);
+}
+
+#spLetrasContidas {
+  color: #505050;
+  font-size: 40px;
+}
+
+#spPalavraSecreta {
+  text-transform: capitalize;
+}
+
+.txt-center {
+  text-align: center;
+}
